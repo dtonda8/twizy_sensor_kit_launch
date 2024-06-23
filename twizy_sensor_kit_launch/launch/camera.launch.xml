@@ -1,6 +1,0 @@
-<launch>
-  <group>
-    <push-ros-namespace namespace="camera"/>
-    <node name="gstream to ros" pkg="twizy_sensor_kit_launch" type="gstream_to_ros.sh" />
-  </group>
-</launch>
