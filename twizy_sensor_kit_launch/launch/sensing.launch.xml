@@ -18,16 +18,6 @@
       <arg name="camera_feed_port" value="$(var camera_feed_port)" />
     </include>
 
-    <!-- IMU Driver -->
-    <!-- <include file="$(find-pkg-share twizy_sensor_kit_launch)/launch/imu.launch.xml">
-      <arg name="launch_driver" value="$(var launch_driver)"/>
-    </include> -->
-
-    <!-- GNSS Driver -->
-    <!-- <include file="$(find-pkg-share twizy_sensor_kit_launch)/launch/gnss.launch.xml">
-      <arg name="launch_driver" value="$(var launch_driver)"/>
-    </include> -->
-
     <!-- Vehicle Velocity Converter  -->
     <!-- <include file="$(find-pkg-share vehicle_velocity_converter)/launch/vehicle_velocity_converter.launch.xml">
       <arg name="input_vehicle_velocity_topic" value="/vehicle/status/velocity_status"/>
