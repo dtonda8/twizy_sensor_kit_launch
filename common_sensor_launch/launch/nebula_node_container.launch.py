@@ -243,7 +243,7 @@ def launch_setup(context, *args, **kwargs):
     # set container to run all required components in the same process
     container = ComposableNodeContainer(
         name=LaunchConfiguration("container_name"),
-        namespace="pointcloud_preprocessor",
+        namespace="autoware::pointcloud_preprocessor",
         package="rclcpp_components",
         executable=LaunchConfiguration("container_executable"),
         composable_node_descriptions=nodes,
